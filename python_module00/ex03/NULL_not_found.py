@@ -3,7 +3,6 @@
 def NULL_not_found(obj : any) -> int:
     if obj is None or obj is False or obj == 0 or obj == "" or (isinstance(obj, float) and obj != obj):
         print(f"Null type found: {type(obj).__name__}")
-        return 0
     else:
         print("Not a null type")
         return (1)
