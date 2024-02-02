@@ -8,3 +8,10 @@ if __name__ == "__main__":
     xr = ft_filter(lambda x: x < 0, xx)
 
     print(xr)
+
+#i added this main here so it will only executes when you run this file directly, 
+#not when you import this file in another Python script.
+
+
+
+
